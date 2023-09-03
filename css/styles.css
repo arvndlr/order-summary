@@ -1,0 +1,88 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  ---bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --p-font-size: 16px;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #e0e8ff;
+  font-size: var(--p-font-size);
+}
+p {
+  font-size: var(--p-font-size);
+}
+.container {
+  box-sizing: border-box;
+  width: 450px;
+  height: 695px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+}
+.img-container {
+  height: 220px;
+}
+.img-container img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card-container {
+    margin-top: 54px;
+    text-align: center;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+}
+.card-container h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: 900;
+}
+.card-container p {
+    margin: 20px auto;
+    color: #9297B1;
+}
+.annual-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9FE;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.annual-plan p {
+    margin: 0 auto 0 15px;
+    text-align: left;
+}
+#annual-title {
+    font-size: 1em;
+    font-weight: 700;
+    color: black;
+}
+button {
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#btn-proceed {
+    background-color: rgba(56, 42, 225, 1);
+    color: #fff;
+    border: none;
+}
+#btn-cancel {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
