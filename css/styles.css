@@ -29,7 +29,7 @@ p {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-  background: #fff;
+  background: var(--very-pale-blue);
 }
 .img-container {
   height: 220px;
@@ -49,6 +49,7 @@ p {
   font-size: 2em;
   margin: 0;
   font-weight: 900;
+  color: var(--dark-blue);
 }
 .card-container p {
   margin: 20px auto;
@@ -60,7 +61,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f8f9fe;
+  background-color: var(--pale-blue);
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 30px;
@@ -79,7 +80,7 @@ p {
 #annual-title {
   font-size: 1.2em;
   font-weight: 700;
-  color: black;
+  color: var(--dark-blue);
 }
 button {
   padding: 15px;
@@ -166,7 +167,6 @@ button {
   #annual-title {
     font-size: 1.2em;
     font-weight: 700;
-    color: black;
   }
   button {
     margin: 0 auto 10px;
