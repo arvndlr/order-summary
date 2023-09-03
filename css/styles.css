@@ -35,54 +35,142 @@ p {
   height: 220px;
 }
 .img-container img {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .card-container {
-    margin-top: 54px;
-    text-align: center;
-    width: 355px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 54px;
+  text-align: center;
+  width: 355px;
+  display: flex;
+  flex-direction: column;
 }
 .card-container h1 {
-    font-size: 2em;
-    margin: 0;
-    font-weight: 900;
+  font-size: 2em;
+  margin: 0;
+  font-weight: 900;
 }
 .card-container p {
-    margin: 20px auto;
-    color: #9297B1;
+  margin: 20px auto;
+  color: var(--desaturated-blue);
 }
+/*annual*/
 .annual-plan {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fe;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  height: 100px;
+}
+.annual-plan p {
+  margin: 0 auto 0 15px;
+  text-align: left;
+}
+.annual-plan a {
+  font-weight: 700;
+}
+.annual-plan a:hover {
+  color: #766cf1;
+}
+#annual-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: black;
+}
+button {
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1em;
+  height: 50px;
+  margin-bottom: 20px;
+}
+#btn-proceed {
+  background-color: var(---bright-blue);
+  color: #fff;
+  border: none;
+  box-shadow: 0 15px 15px #dcd8fa;
+}
+#btn-proceed:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+#btn-cancel {
+  color: var(--desaturated-blue);
+  background: rgba(0, 0, 0, 0);
+  border: none;
+}
+#btn-cancel:hover {
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+@media only screen and (max-width: 376px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 325px;
+    height: 565px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: #fff;
+  }
+  .img-container {
+    height: 160px;
+  }
+  .img-container img {
+    width: 325px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card-container {
+    margin-top: 35px;
+    text-align: center;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container p {
+    margin: 20px auto;
+    font-size: 14px;
+  }
+  /*Annual*/
+  .annual-plan {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F8F9FE;
+    background-color: #f8f9fe;
     padding: 20px;
     border-radius: 15px;
-    margin-bottom: 20px;
-}
-.annual-plan p {
-    margin: 0 auto 0 15px;
+    height: 80px;
+  }
+  .annual-plan p {
+    margin: 0 30px 0 15px;
     text-align: left;
-}
-#annual-title {
-    font-size: 1em;
+  }
+  .annual-plan a {
+    font-weight: 700;
+  }
+  #annual-title {
+    font-size: 1.2em;
     font-weight: 700;
     color: black;
-}
-button {
-    padding: 15px;
-    border-radius: 15px;
-    margin-bottom: 10px;
-}
-#btn-proceed {
-    background-color: rgba(56, 42, 225, 1);
-    color: #fff;
-    border: none;
-}
-#btn-cancel {
-    background: rgba(0, 0, 0, 0);
-    border: none;
+  }
+  button {
+    margin: 0 auto 10px;
+    width: 280px;
+    height: 50px;
+  }
 }
