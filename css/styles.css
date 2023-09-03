@@ -29,7 +29,7 @@ p {
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-  background: var(--very-pale-blue);
+  background: #fff;
 }
 .img-container {
   height: 220px;
@@ -61,7 +61,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--pale-blue);
+  background-color: var(--very-pale-blue);
   padding: 20px;
   border-radius: 15px;
   margin-bottom: 30px;
