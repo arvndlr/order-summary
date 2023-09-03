@@ -46,7 +46,7 @@ p {
   flex-direction: column;
 }
 .card-container h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
   font-weight: 900;
   color: var(--dark-blue);
@@ -78,7 +78,7 @@ p {
   color: #766cf1;
 }
 #annual-title {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 700;
   color: var(--dark-blue);
 }
@@ -165,7 +165,7 @@ button {
     font-weight: 700;
   }
   #annual-title {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
   }
   button {
